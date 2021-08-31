@@ -1,9 +1,8 @@
 //
 //  Alert.swift
-//  FammNYCard
 //
 //  Created by keisuke yamagishi on 2020/08/03.
-//  Copyright © 2020 Timers, Inc. All rights reserved.
+//  Copyright © 2020 keisuke yamagishi. All rights reserved.
 //
 
 import UIKit

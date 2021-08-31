@@ -1,9 +1,8 @@
 //
 //  UIViewController+.swift
-//  FammNYCard
 //
 //  Created by keisuke yamagishi on 2020/08/03.
-//  Copyright © 2020 Timers, Inc. All rights reserved.
+//  Copyright © 2020  keisuke yamagishi. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +17,9 @@ extension UIAlertController {
                     text.config(textField)
                 }
             } else {
-                self.addAction(UIAlertAction(title: action.title, style: action.style, handler: { [unowned self] alertAction in
+                self.addAction(UIAlertAction(title: action.title,
+                                             style: action.style,
+                                             handler: { [unowned self] alertAction in
                     action.handler?(alertAction, self.textFields)
                 }))
             }
